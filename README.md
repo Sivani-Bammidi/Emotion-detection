@@ -150,3 +150,14 @@ Location: c:\users\bageeradha\appdata\roaming\python\python310\site-packages
 Requires: absl-py, astunparse, flatbuffers, gast, google-pasta, grpcio, h5py, keras, keras-preprocessing, libclang, numpy, opt-einsum, packaging, protobuf, setuptools, six, tensorboard, tensorflow-estimator, tensorflow-io-gcs-filesystem, termcolor, typing-extensions, wrapt
 Required-by:"	pip show tensorflow	tensor flow version ML framework		
 ![image](https://user-images.githubusercontent.com/110295819/190874413-651dad53-874e-436e-95d4-8260af3584a9.png)
+
+
+Required Software's to be installed
+
+1.Python latest version
+2.numpy
+3.opencv-python
+4.tensorflow
+5.matplotlib
+
+
