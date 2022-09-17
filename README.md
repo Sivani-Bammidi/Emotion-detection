@@ -160,4 +160,11 @@ Required Software's to be installed
 4.tensorflow
 5.matplotlib
 
+Program Execution steps
+If you want to train this model, use:
+cd src
+python emotions.py --mode train
+If you want to view the predictions without training again, you can download the pre-trained model from here and then run:
+cd src
+python emotions.py --mode display
 
