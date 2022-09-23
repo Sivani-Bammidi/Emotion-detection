@@ -1,7 +1,7 @@
 # Emotion-detection
 File path	pip command	reference url	version	To check wearther open cv installed
-C:\Users\Bageeradha\emotion\Emotion-detection>pip install numpy	install numpy into phyton	https://numpy.org/install/	numpy-1.23.3	
-c:\users\bageeradha\appdata\roaming\python\python310\site-packages (from opencv-python) (1.23.3)	pip install opencv-python	https://www.geeksforgeeks.org/how-to-install-opencv-for-python-in-windows/	opencv-python-4.6.0.66	"C:\Users\Bageeradha>python
+C:\Users\Sivani\emotion\Emotion-detection>pip install numpy	install numpy into phyton	https://numpy.org/install/	numpy-1.23.3	
+c:\users\Sivani\appdata\roaming\python\python310\site-packages (from opencv-python) (1.23.3)	pip install opencv-python	https://www.geeksforgeeks.org/how-to-install-opencv-for-python-in-windows/	opencv-python-4.6.0.66	"C:\Users\Sivani>python
 Python 3.10.7 (tags/v3.10.7:6cc6b13, Sep  5 2022, 14:08:36) [MSC v.1933 64 bit (AMD64)] on win32
 Type ""help"", ""copyright"", ""credits"" or ""license"" for more information.
 >>> import cv2
@@ -11,7 +11,7 @@ Type ""help"", ""copyright"", ""credits"" or ""license"" for more information.
 "Microsoft Windows [Version 10.0.22000.978]
 (c) Microsoft Corporation. All rights reserved.
 
-C:\Users\Bageeradha>pip install tensorflow
+C:\Users\Sivani>pip install tensorflow
 Defaulting to user installation because normal site-packages is not writeable
 Collecting tensorflow
   Downloading tensorflow-2.10.0-cp310-cp310-win_amd64.whl (455.9 MB)
@@ -26,7 +26,7 @@ Collecting keras-preprocessing>=1.1.1
      ---------------------------------------- 42.6/42.6 kB 1.0 MB/s eta 0:00:00
 Collecting astunparse>=1.6.0
   Downloading astunparse-1.6.3-py2.py3-none-any.whl (12 kB)
-Requirement already satisfied: numpy>=1.20 in c:\users\bageeradha\appdata\roaming\python\python310\site-packages (from tensorflow) (1.23.3)
+Requirement already satisfied: numpy>=1.20 in c:\users\Sivani\appdata\roaming\python\python310\site-packages (from tensorflow) (1.23.3)
 Collecting grpcio<2.0,>=1.24.3
   Downloading grpcio-1.49.0-cp310-cp310-win_amd64.whl (3.6 MB)
      ---------------------------------------- 3.6/3.6 MB 8.0 MB/s eta 0:00:00
@@ -124,19 +124,19 @@ Collecting oauthlib>=3.0.0
   Downloading oauthlib-3.2.1-py3-none-any.whl (151 kB)
      ---------------------------------------- 151.7/151.7 kB 2.2 MB/s eta 0:00:00
 Installing collected packages: tensorboard-plugin-wit, pyasn1, libclang, keras, flatbuffers, wrapt, wheel, urllib3, typing-extensions, termcolor, tensorflow-io-gcs-filesystem, tensorflow-estimator, tensorboard-data-server, six, rsa, pyparsing, pyasn1-modules, protobuf, opt-einsum, oauthlib, MarkupSafe, markdown, idna, h5py, gast, charset-normalizer, certifi, cachetools, absl-py, werkzeug, requests, packaging, keras-preprocessing, grpcio, google-pasta, google-auth, astunparse, requests-oauthlib, google-auth-oauthlib, tensorboard, tensorflow
-  WARNING: The script wheel.exe is installed in 'C:\Users\Bageeradha\AppData\Roaming\Python\Python310\Scripts' which is not on PATH.
+  WARNING: The script wheel.exe is installed in 'C:\Users\Sivani\AppData\Roaming\Python\Python310\Scripts' which is not on PATH.
   Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.
-  WARNING: The scripts pyrsa-decrypt.exe, pyrsa-encrypt.exe, pyrsa-keygen.exe, pyrsa-priv2pub.exe, pyrsa-sign.exe and pyrsa-verify.exe are installed in 'C:\Users\Bageeradha\AppData\Roaming\Python\Python310\Scripts' which is not on PATH.
+  WARNING: The scripts pyrsa-decrypt.exe, pyrsa-encrypt.exe, pyrsa-keygen.exe, pyrsa-priv2pub.exe, pyrsa-sign.exe and pyrsa-verify.exe are installed in 'C:\Users\Sivani\AppData\Roaming\Python\Python310\Scripts' which is not on PATH.
   Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.
-  WARNING: The script markdown_py.exe is installed in 'C:\Users\Bageeradha\AppData\Roaming\Python\Python310\Scripts' which is not on PATH.
+  WARNING: The script markdown_py.exe is installed in 'C:\Users\Sivani\AppData\Roaming\Python\Python310\Scripts' which is not on PATH.
   Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.
-  WARNING: The script normalizer.exe is installed in 'C:\Users\Bageeradha\AppData\Roaming\Python\Python310\Scripts' which is not on PATH.
+  WARNING: The script normalizer.exe is installed in 'C:\Users\Sivani\AppData\Roaming\Python\Python310\Scripts' which is not on PATH.
   Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.
-  WARNING: The script google-oauthlib-tool.exe is installed in 'C:\Users\Bageeradha\AppData\Roaming\Python\Python310\Scripts' which is not on PATH.
+  WARNING: The script google-oauthlib-tool.exe is installed in 'C:\Users\Sivani\AppData\Roaming\Python\Python310\Scripts' which is not on PATH.
   Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.
-  WARNING: The script tensorboard.exe is installed in 'C:\Users\Bageeradha\AppData\Roaming\Python\Python310\Scripts' which is not on PATH.
+  WARNING: The script tensorboard.exe is installed in 'C:\Users\Sivani\AppData\Roaming\Python\Python310\Scripts' which is not on PATH.
   Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.
-  WARNING: The scripts estimator_ckpt_converter.exe, import_pb_to_tensorboard.exe, saved_model_cli.exe, tensorboard.exe, tf_upgrade_v2.exe, tflite_convert.exe, toco.exe and toco_from_protos.exe are installed in 'C:\Users\Bageeradha\AppData\Roaming\Python\Python310\Scripts' which is not on PATH.
+  WARNING: The scripts estimator_ckpt_converter.exe, import_pb_to_tensorboard.exe, saved_model_cli.exe, tensorboard.exe, tf_upgrade_v2.exe, tflite_convert.exe, toco.exe and toco_from_protos.exe are installed in 'C:\Users\Sivani\AppData\Roaming\Python\Python310\Scripts' which is not on PATH.
   Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.
 Successfully installed MarkupSafe-2.1.1 absl-py-1.2.0 astunparse-1.6.3 cachetools-5.2.0 certifi-2022.9.14 charset-normalizer-2.1.1 flatbuffers-2.0.7 gast-0.4.0 google-auth-2.11.0 google-auth-oauthlib-0.4.6 google-pasta-0.2.0 grpcio-1.49.0 h5py-3.7.0 idna-3.4 keras-2.10.0 keras-preprocessing-1.1.2 libclang-14.0.6 markdown-3.4.1 oauthlib-3.2.1 opt-einsum-3.3.0 packaging-21.3 protobuf-3.19.5 pyasn1-0.4.8 pyasn1-modules-0.2.8 pyparsing-3.0.9 requests-2.28.1 requests-oauthlib-1.3.1 rsa-4.9 six-1.16.0 tensorboard-2.10.0 tensorboard-data-server-0.6.1 tensorboard-plugin-wit-1.8.1 tensorflow-2.10.0 tensorflow-estimator-2.10.0 tensorflow-io-gcs-filesystem-0.27.0 termcolor-2.0.1 typing-extensions-4.3.0 urllib3-1.26.12 werkzeug-2.2.2 wheel-0.37.1 wrapt-1.14.1"		pip install tensorflow		
 "Name: tensorflow
@@ -146,7 +146,7 @@ Home-page: https://www.tensorflow.org/
 Author: Google Inc.
 Author-email: packages@tensorflow.org
 License: Apache 2.0
-Location: c:\users\bageeradha\appdata\roaming\python\python310\site-packages
+Location: c:\users\Sivani\appdata\roaming\python\python310\site-packages
 Requires: absl-py, astunparse, flatbuffers, gast, google-pasta, grpcio, h5py, keras, keras-preprocessing, libclang, numpy, opt-einsum, packaging, protobuf, setuptools, six, tensorboard, tensorflow-estimator, tensorflow-io-gcs-filesystem, termcolor, typing-extensions, wrapt
 Required-by:"	pip show tensorflow	tensor flow version ML framework		
 ![image](https://user-images.githubusercontent.com/110295819/190874413-651dad53-874e-436e-95d4-8260af3584a9.png)
