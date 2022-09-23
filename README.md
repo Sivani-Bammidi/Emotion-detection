@@ -1,4 +1,3 @@
-# Emotion-detection
 File path	pip command	reference url	version	To check wearther open cv installed
 C:\Users\Sivani\emotion\Emotion-detection>pip install numpy	install numpy into phyton	https://numpy.org/install/	numpy-1.23.3	
 c:\users\Sivani\appdata\roaming\python\python310\site-packages (from opencv-python) (1.23.3)	pip install opencv-python	https://www.geeksforgeeks.org/how-to-install-opencv-for-python-in-windows/	opencv-python-4.6.0.66	"C:\Users\Sivani>python
@@ -149,8 +148,7 @@ License: Apache 2.0
 Location: c:\users\Sivani\appdata\roaming\python\python310\site-packages
 Requires: absl-py, astunparse, flatbuffers, gast, google-pasta, grpcio, h5py, keras, keras-preprocessing, libclang, numpy, opt-einsum, packaging, protobuf, setuptools, six, tensorboard, tensorflow-estimator, tensorflow-io-gcs-filesystem, termcolor, typing-extensions, wrapt
 Required-by:"	pip show tensorflow	tensor flow version ML framework		
-![image](https://user-images.githubusercontent.com/110295819/190874413-651dad53-874e-436e-95d4-8260af3584a9.png)
-
+![image](https://user-images.githubusercontent.com/110295819/192030375-09989403-9584-4486-9a64-373570e53d13.png)
 
 Required Software's to be installed
 
@@ -167,4 +165,3 @@ python emotions.py --mode train
 If you want to view the predictions without training again, you can download the pre-trained model from here and then run:
 cd src
 python emotions.py --mode display
-
